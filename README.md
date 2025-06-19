@@ -2,6 +2,8 @@
 
 An unofficial port of AASTeXv7 (official LaTeX journal template for the American Astronomical Society) to Typst. As of right now, this template is not intended to be a one-to-one recreation of the AASTeX format. Rather, AASTyp aims to capture all of AASTeX's important components in an aesthetically pleasing and author-friendly way.
 
+<center><img src="assets/example_page.png" alt="Example page" width="600"></center>
+
 Basic features include:
 - Automatic title, author, abstract, and keywords formatting
 - Page headers with an optional short title
