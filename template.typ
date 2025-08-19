@@ -166,7 +166,7 @@
     #(
       authors
         .map(x => {
-          if x.orcid != none {
+          if x.at("orcid", default: none) != none {
             link("https://orcid.org/" + x.orcid)[#smallcaps()[#x.first #x.last #box(
                   image("assets/orcid-ID.png", width: 1em),
                 )#h(0.125em)]]
